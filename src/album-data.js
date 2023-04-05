@@ -5,7 +5,7 @@ const albums = [
     artist: 'Beyoncé',
     genre: 'R&B',
     Top3Fav: true,
-    img: './img/Beyonce_renaissance.png' 
+    photoFile: './img/Beyonce_renaissance.png' 
   },
   {
     id: '2',
@@ -13,7 +13,7 @@ const albums = [
     artist: 'Amy Winehouse',
     genre: 'R&B',
     Top3Fav: true,
-    img: './img/Winehouse-BacktoBlack.png' 
+    photoFile: './img/Winehouse-BacktoBlack.png' 
   },
   {
     id: '3',
@@ -21,7 +21,7 @@ const albums = [
     artist: 'Kendrick Lamar',
     genre: 'Rap',
     Top3Fav: true,
-    img: './img/Lamar-Damn.png' 
+    photoFile: './img/Lamar-Damn.png' 
   },
   {
     id: '4',
@@ -29,7 +29,7 @@ const albums = [
     artist: 'Ariana Grande',
     genre: 'Pop',
     Top3Fav: false,
-    img: './img/Sweetener_grande.png'
+    photoFile: './img/Sweetener_grande.png'
   },
   {
     id: '5',
@@ -37,7 +37,7 @@ const albums = [
     artist: 'Shakira',
     genre: 'Pop',
     Top3Fav: false,
-    img: './img/Shakira_Laundry_Service.png' 
+    photoFile: './img/Shakira_Laundry_Service.png' 
   }
 ];
 

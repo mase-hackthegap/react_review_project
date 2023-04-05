@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* STAR RATING STYLES */
+.album--stars {
+  border: 0;
+  margin: 20px 0 0;
+  padding: 0;
+  font-size: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.album--stars li {
+  float: left;
+  list-style: none;
+  width: 20%;
+  max-width: 40px;
+  line-height: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 0 5px;
+  box-sizing: border-box;
 }
+
+.album--stars li:first-child {
+  margin-left: -2px;
+}
+
+.album--stars li:hover {
+  cursor: pointer;
+}
+
+.album--stars .star {
+  width: auto;
+  height: 100%;
+  fill: #7c879f75;
+}
+
+.album--stars .selected .star {
+  fill: #001238;
+}
+
+.album--reviews--form .album--stars {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
