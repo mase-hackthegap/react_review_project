@@ -1,25 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Star from './Star';
 const StarRating = () => {
-    // Initialize a 'albumRating' state
 
-
-    // Write a function that returns 5 Star components
-
+        const [albumRating, setAlbumRating] = useState(0);
+        
         const renderStars = () => {
             let stars = [];
             const maxRating = 5;
             for (let i =0; i < maxRating; i++) {
                 stars.push(
                     <Star
+                        isSelected={albumRating >i}
+                        setRating={() => handleSetRating(i+1)}
                         key={i}
                     />
                 )
             }
          return stars;   
         }
-    // Write an event handler that updates the albumRating state.
-    // Pass the function to a Star component via props
+    
+    const handleSetRating = (rating) => {
+        setAlbumRating(rating);
+    }
+
     
 
     return (
